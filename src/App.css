@@ -7,6 +7,31 @@
   pointer-events: none;
 }
 
+.active {
+
+  color: red !important;
+  padding: 5px 23px;
+  font-weight: bold;
+  border-radius: 5px;
+
+}
+
+.roters li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+.roters {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +57,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
