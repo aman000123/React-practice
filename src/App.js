@@ -40,6 +40,9 @@ import Accordians from './Accordians/accordian.jsx';
 import TemperatureConverter from './StateLifting/withoutLifting.js';
 import TemperatureConverterLifting from './StateLifting/withliftingup.js';
 import ThemeSwitcher from './StateLifting/withliftinexample.js';
+import RegisterationFormPureComPonent from './memoUseCase/memoUseCase.jsx';
+import ParentComponentWithOutMemo from './memoUseCase/memoExamplsWithoutMemo.jsx';
+import ParentComponentWithMemo from './memoUseCase/memoExamplsWithMemo.jsx';
 
 
 function App() {
@@ -147,6 +150,10 @@ function App() {
       <TemperatureConverter />
       <TemperatureConverterLifting />
       <ThemeSwitcher />
+
+      <RegisterationFormPureComPonent />
+      <ParentComponentWithOutMemo />
+      <ParentComponentWithMemo />
     </div>
   );
 }

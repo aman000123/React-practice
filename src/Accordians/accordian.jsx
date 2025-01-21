@@ -49,7 +49,7 @@ const Accordians = () => {
         <div className="componentContainer">
             {data.map((item, index) => {
                 return (
-                    <div className="accordionContainer" onClick={() => handleClick(index)}>
+                    <div key={index} className="accordionContainer" onClick={() => handleClick(index)}>
                         <div className="accordionHeader">{item.header}</div>
                         {clickedAccordion === index && <div className="accordionBody">{item.content}</div>}
                     </div>

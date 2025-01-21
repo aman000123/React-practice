@@ -26,10 +26,13 @@ const UseMemos = () => {
 
     return (
         <div>
+            <hr />
             <h1>Usememo explore todays</h1>
             <p>Count: {count}</p>
             <p>Squared Count: {squaredCount}</p>
             <button onClick={() => setCount(count + 1)}>Increment Count</button>
+            <hr />
+            <hr />
         </div>
     );
 }
